@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="{% static 'global.css' %}">
+    <body>
+        
+        <p id="testi">
+            <a href="{% url 'game_portfolio:index' %}">Game Portfolio</a>
+            <a href="{% url 'game_portfolio:Tests' %}">Tests</a>
+            
+        </p>
+        
+    </body>
+    {% block content %}{% endblock content %}
+</html>
