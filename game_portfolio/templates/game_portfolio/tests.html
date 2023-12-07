@@ -1,0 +1,14 @@
+{% extends "game_portfolio/base.html" %}
+{% block content %}
+<div style="font-family: Verdana, Geneva, Tahoma, sans-serif; background-color: rgb(53, 53, 53); color:aliceblue">
+<p>Tests</p>
+<ul>
+    {% for testi in Tests %}
+    <li>{{ testi }}</li>
+    {% empty %}
+    <li>No tests have been done</li>
+    {% endfor %}
+</ul>
+</div>
+{% endblock content %}
+

@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(58,79,65);
+    color: rgb(58,79,65);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+    background-color: rgb(213,161,142);
+    height: 100px;
+    width: 100%;
+}
+
+#testi {
+    color:brown;
+}
+
+#graphic {
+    
+}
+
+
+palette {
+    /* Copy and paste from here */
+    color: rgb(58,79,65);
+    color: rgb(185,49,79);
+    color: rgb(213,161,142);
+    color: rgb(222,195,190);
+    color: rgb(225,222,227);
+}
